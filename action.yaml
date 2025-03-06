@@ -1,8 +1,8 @@
-name: Update Required Status Check
-description: Update Required Status Check according to the workflow run's conclusion
+name: Required Status Check via workflow_run
+description: Create a Required Status Check by pull_request workflow result via workflow_run
 branding:
-  icon: git-commit
-  color: blue
+  icon: check
+  color: green
 inputs:
   github_token:
     description: |
