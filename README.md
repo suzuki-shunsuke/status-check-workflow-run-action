@@ -43,7 +43,7 @@ jobs:
     permissions:
       statuses: write # To update commit statuses
     steps:
-      - uses: suzuki-shunsuke/status-check-workflow-run-action@d6dedddf951ad4773766be4091a5a58123b68aba # v0.1.0
+      - uses: suzuki-shunsuke/status-check-workflow-run-action@79471ff024007dbc192e6ce0576f71960b1c144d # v0.1.1
 ```
 
 Finally, please add `status-check` to `Status checks that are required`.
